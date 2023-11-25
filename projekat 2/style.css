@@ -1,0 +1,325 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.pre-header{
+    background-color: black;
+    height: 60px;
+    color: white;
+    padding-top: 30px;
+}
+
+.pre-header ul{
+    list-style: none;
+    text-align: center;
+}
+
+.pre-header ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.pre-header ul li a{
+    color: #707374;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}
+
+.pre-header ul li a:hover{
+    color: white;
+    background-color: #4f33f1;
+    border: 1px solid ;
+}
+
+.nav-main ul{
+    list-style: none;
+    margin-top: 20px;
+}
+
+.nav-main ul li{
+    display: inline;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: right;
+}
+
+.nav-main ul li a{
+    color: #767676;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.3s;
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+}
+
+.nav-main ul li a:hover{
+     color: white;
+     background-color: #4f33f1;
+     border: 1px solid ;
+}
+
+.nav-main img{
+    float: left;
+}
+
+.hero-section{
+    background-image: url('images/pozadina.jpg');
+    padding-top: 115px;
+    padding-bottom: 110px;
+    background-size: cover;
+}
+
+.hero-section h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.hero-section p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-section a{
+    background-color: #4f33f1;
+    border: 1px solid #4f33f1;
+    padding: 5px;
+    color: white;
+    transition: 0.3s;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.hero-section a:hover{
+    color: black;
+    background-color: white
+    }
+
+
+.flex-container {
+    display: flex;
+    background-color: bisque;
+  }
+
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 30px;
+    font-size: 30px;
+    }
+
+    .flex-container p{
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .meta{
+        background-color: bisque;
+    }
+
+    .meta h1{
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .meta a{
+        background-color: #4f33f1;
+        border: 1px solid #4f33f1;
+        padding: 5px;
+        color: white;
+        transition: 0.3s;
+        text-decoration: none;
+        display: inline-block;
+        margin-left: 10px;
+    }
+
+    .meta a:hover{
+        color: black;
+        background-color: white;
+    }
+
+    .o-nama{
+        background-color: bisque;
+    }
+
+    .o-nama h1{
+       text-align: center;
+       text-transform: uppercase;
+    }
+
+    .o-nama p{
+        font-size: 30px;
+        padding: 15px;
+    }
+
+    .o-nama a{
+        background-color: #4f33f1;
+        border: 1px solid #4f33f1;
+        padding: 5px;
+        color: white;
+        transition: 0.3s;
+        text-decoration: none;
+        display: inline-block;
+        margin-left: 10px;
+    }
+
+    .o-nama a:hover{
+        color: black;
+        background-color: white;
+    }
+
+    .say-section{
+        background-color: bisque;
+    }
+
+    .say-section h1{
+        text-align: center;
+        text-transform: uppercase;
+        
+    }
+
+    .say-section h3{
+        text-transform: uppercase;
+        margin: 10px;
+    }
+    .say-section a{
+        background-color: #4f33f1;
+        border: 1px solid #4f33f1;
+        padding: 5px;
+        color: white;
+        transition: 0.3s;
+        text-decoration: none;
+        display: inline-block;
+        margin-left: 10px;
+    }
+
+    .say-section a:hover{
+        color: black;
+        background-color: white;
+    }
+
+
+    .pistolj {
+        display: flex;
+        margin: 10px;
+        padding: 30px;
+        font-size: 30px;
+    }
+
+    .pistolj img{
+        margin: 10px;
+        padding: 1px;
+    }
+
+    .pistolj p{
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .naslov{
+        text-transform: uppercase;
+        margin: 10px;
+        background-color: bisque;
+    }
+
+    .lovacke h3{
+        text-transform: uppercase;
+        margin: 10px;
+    }
+
+
+    .kontakt{
+        background-color: bisque;
+    }
+
+
+    .kontakt h1{
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .kontakt a{
+        background-color: #4f33f1;
+        border: 1px solid #4f33f1;
+        padding: 5px;
+        color: white;
+        transition: 0.3s;
+        text-decoration: none;
+        display: inline-block;
+        margin-left: 10px;
+    }
+
+    .kontakt a:hover{
+        color: black;
+        background-color: white;
+    }
+
+    .kontakt h3{
+       padding: 20px;
+       text-transform: uppercase;
+    }
+
+    .kontakt p{
+        padding: 10px;
+    }
+
+    .proizvod{
+        background-color: bisque;
+    }
+
+    .proizvod ul{
+        list-style: none;
+        padding: 5px;
+        margin: 10px;
+        text-transform: uppercase;
+    }
+
+    .proizvod ol li{
+        margin: 5px;
+    }
+
+    .proizvod h1{
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .proizvod a{
+        background-color: #4f33f1;
+        border: 1px solid #4f33f1;
+        padding: 5px;
+        color: white;
+        transition: 0.3s;
+        text-decoration: none;
+        display: inline-block;
+        margin-left: 10px;
+    }
+
+    .proizvod a:hover{
+        color: black;
+        background-color: white;
+    }
+
+    .container {
+        width: 90%;
+        margin: auto;
+        display: flex;
+    }
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    article {
+        border: 1px solid red;
+        padding: 30px;
+        margin: 10px;
+        flex: 0 0 17%;
+    }
